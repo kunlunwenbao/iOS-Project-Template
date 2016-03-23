@@ -1,0 +1,1 @@
+../../../BrightSDK/BrightSDK/include/BRTBeaconManager.h

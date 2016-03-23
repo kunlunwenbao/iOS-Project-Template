@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - BrightSDK (3.3.4)
+  - Bugtags (1.2.1)
+  - JSONKit-NoWarning (1.2)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - SVProgressHUD (2.0)
+  - UMengAnalytics-NO-IDFA (3.6.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BrightSDK
+  - Bugtags
+  - JSONKit-NoWarning
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension
+  - MJRefresh
+  - SVProgressHUD
+  - UMengAnalytics-NO-IDFA
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BrightSDK: 65c79a59da2a8e3fe674790b9c1d7844b41f0f39
+  Bugtags: dacf20b913e9299fe85dc6b41b91242da83ee03c
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
+
+PODFILE CHECKSUM: 8153b00f485c95a549b205b206de729f577733e8
+
+COCOAPODS: 1.0.0.beta.4
