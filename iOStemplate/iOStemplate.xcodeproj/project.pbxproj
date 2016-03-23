@@ -53,8 +53,6 @@
 		92E65D511CA232D90053CEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E65D5E1CA234450053CEE2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92E65D5F1CA234450053CEE2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92E65D771CA236530053CEE2 /* Foundation_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foundation_defines.h; sourceTree = "<group>"; };
-		92E65D7E1CA251220053CEE2 /* Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foundation.h; sourceTree = "<group>"; };
 		C17163369978B10A4BC0C757 /* Pods-iOStemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOStemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOStemplate/Pods-iOStemplate.release.xcconfig"; sourceTree = "<group>"; };
 		D5259888DF38D8AE069E9FA5 /* Pods_iOStemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOStemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,8 +166,6 @@
 			children = (
 				92E65D5E1CA234450053CEE2 /* AppDelegate.h */,
 				92E65D5F1CA234450053CEE2 /* AppDelegate.m */,
-				92E65D771CA236530053CEE2 /* Foundation_defines.h */,
-				92E65D7E1CA251220053CEE2 /* Foundation.h */,
 			);
 			path = App;
 			sourceTree = "<group>";
