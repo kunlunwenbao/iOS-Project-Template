@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		92E65D2C1CA232D90053CEE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D2B1CA232D90053CEE2 /* main.m */; };
-		92E65D2F1CA232D90053CEE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D2E1CA232D90053CEE2 /* AppDelegate.m */; };
 		92E65D321CA232D90053CEE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D311CA232D90053CEE2 /* ViewController.m */; };
 		92E65D351CA232D90053CEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E65D331CA232D90053CEE2 /* Main.storyboard */; };
 		92E65D371CA232D90053CEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E65D361CA232D90053CEE2 /* Assets.xcassets */; };
 		92E65D3A1CA232D90053CEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E65D381CA232D90053CEE2 /* LaunchScreen.storyboard */; };
 		92E65D451CA232D90053CEE2 /* iOStemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D441CA232D90053CEE2 /* iOStemplateTests.m */; };
 		92E65D501CA232D90053CEE2 /* iOStemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D4F1CA232D90053CEE2 /* iOStemplateUITests.m */; };
+		92E65D661CA234450053CEE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E65D5F1CA234450053CEE2 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		92E65D271CA232D80053CEE2 /* iOStemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOStemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E65D2B1CA232D90053CEE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92E65D2D1CA232D90053CEE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92E65D2E1CA232D90053CEE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		92E65D301CA232D90053CEE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		92E65D311CA232D90053CEE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92E65D341CA232D90053CEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		92E65D4B1CA232D90053CEE2 /* iOStemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOStemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E65D4F1CA232D90053CEE2 /* iOStemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOStemplateUITests.m; sourceTree = "<group>"; };
 		92E65D511CA232D90053CEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E65D5E1CA234450053CEE2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92E65D5F1CA234450053CEE2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,17 @@
 		92E65D291CA232D90053CEE2 /* iOStemplate */ = {
 			isa = PBXGroup;
 			children = (
-				92E65D2D1CA232D90053CEE2 /* AppDelegate.h */,
-				92E65D2E1CA232D90053CEE2 /* AppDelegate.m */,
+				92E65D5D1CA234450053CEE2 /* App */,
+				92E65D621CA234450053CEE2 /* Source */,
+				92E65D611CA234450053CEE2 /* Extension */,
+				92E65D631CA234450053CEE2 /* Thirdpart */,
+				92E65D641CA234450053CEE2 /* Tools */,
+				92E65D651CA234450053CEE2 /* Utility */,
+				92E65D601CA234450053CEE2 /* Category */,
 				92E65D301CA232D90053CEE2 /* ViewController.h */,
 				92E65D311CA232D90053CEE2 /* ViewController.m */,
 				92E65D331CA232D90053CEE2 /* Main.storyboard */,
-				92E65D361CA232D90053CEE2 /* Assets.xcassets */,
 				92E65D381CA232D90053CEE2 /* LaunchScreen.storyboard */,
-				92E65D3B1CA232D90053CEE2 /* Info.plist */,
 				92E65D2A1CA232D90053CEE2 /* Supporting Files */,
 			);
 			path = iOStemplate;
@@ -117,6 +120,8 @@
 		92E65D2A1CA232D90053CEE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92E65D361CA232D90053CEE2 /* Assets.xcassets */,
+				92E65D3B1CA232D90053CEE2 /* Info.plist */,
 				92E65D2B1CA232D90053CEE2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +143,185 @@
 				92E65D511CA232D90053CEE2 /* Info.plist */,
 			);
 			path = iOStemplateUITests;
+			sourceTree = "<group>";
+		};
+		92E65D5D1CA234450053CEE2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D5E1CA234450053CEE2 /* AppDelegate.h */,
+				92E65D5F1CA234450053CEE2 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92E65D601CA234450053CEE2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		92E65D611CA234450053CEE2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		92E65D621CA234450053CEE2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D671CA2351F0053CEE2 /* 侧栏 */,
+				92E65D6B1CA2351F0053CEE2 /* 地图 */,
+				92E65D6F1CA2351F0053CEE2 /* 启动登录 */,
+				92E65D731CA2351F0053CEE2 /* 首页 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		92E65D631CA234450053CEE2 /* Thirdpart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirdpart;
+			sourceTree = "<group>";
+		};
+		92E65D641CA234450053CEE2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		92E65D651CA234450053CEE2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		92E65D671CA2351F0053CEE2 /* 侧栏 */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D681CA2351F0053CEE2 /* Controller */,
+				92E65D691CA2351F0053CEE2 /* Model */,
+				92E65D6A1CA2351F0053CEE2 /* View */,
+			);
+			path = "侧栏";
+			sourceTree = "<group>";
+		};
+		92E65D681CA2351F0053CEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92E65D691CA2351F0053CEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E65D6A1CA2351F0053CEE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92E65D6B1CA2351F0053CEE2 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D6C1CA2351F0053CEE2 /* Controller */,
+				92E65D6D1CA2351F0053CEE2 /* Model */,
+				92E65D6E1CA2351F0053CEE2 /* View */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		92E65D6C1CA2351F0053CEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92E65D6D1CA2351F0053CEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E65D6E1CA2351F0053CEE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92E65D6F1CA2351F0053CEE2 /* 启动登录 */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D701CA2351F0053CEE2 /* Controller */,
+				92E65D711CA2351F0053CEE2 /* Model */,
+				92E65D721CA2351F0053CEE2 /* View */,
+			);
+			path = "启动登录";
+			sourceTree = "<group>";
+		};
+		92E65D701CA2351F0053CEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92E65D711CA2351F0053CEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E65D721CA2351F0053CEE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92E65D731CA2351F0053CEE2 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				92E65D741CA2351F0053CEE2 /* Controller */,
+				92E65D751CA2351F0053CEE2 /* Model */,
+				92E65D761CA2351F0053CEE2 /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		92E65D741CA2351F0053CEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92E65D751CA2351F0053CEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E65D761CA2351F0053CEE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +455,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E65D321CA232D90053CEE2 /* ViewController.m in Sources */,
-				92E65D2F1CA232D90053CEE2 /* AppDelegate.m in Sources */,
 				92E65D2C1CA232D90053CEE2 /* main.m in Sources */,
+				92E65D661CA234450053CEE2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
